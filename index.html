@@ -76,7 +76,7 @@
         </div>
 
         <!-- slider / carosal -->
-        <div class="carousel w-full mt-12 rounded-lg mx-2">
+        <div class="carousel w-full mt-12 rounded-lg  overflow-hidden">
             <div id="slide1" class="carousel-item relative w-full ">
 
 
@@ -140,14 +140,14 @@
     <main class="container m-auto">
 
         <!-- deal of the day -->
-        <div class="hero   mt-5 lg:mt-48 ">
+        <div class="hero mt-5 lg:mt-36 flex-wrap">
             <div class="hero-content flex-col-reverse lg:flex-row-reverse lg:gap-80 text-center lg:text-justify">
                 <div class="flex">
-                    <span><h3 class="font-black text-5xl">29</h3><p>Days</p></span> <i class="fa-solid fa-ellipsis-vertical mt-3 mx-6"></i> <span class="ml-4"><h3 class="font-black text-5xl">15</h3><p>Hour</p></span> <i class="fa-solid fa-ellipsis-vertical mt-3 mx-6"></i>
+                    <span><h3 class="font-black lg:text-5xl">29</h3><p>Days</p></span> <i class="fa-solid fa-ellipsis-vertical mt-3 lg:mx-6"></i> <span class="ml-4"><h3 class="font-black lg:text-5xl">15</h3><p>Hour</p></span> <i class="fa-solid fa-ellipsis-vertical mt-3 lg:mx-6"></i>
                     <span class="ml-4">
-                        <h3 class="font-black text-5xl">25</h3>
+                        <h3 class="font-black lg:text-5xl">25</h3>
                         <p>Minute</p>
-                        </span> <i class="fa-solid fa-ellipsis-vertical mt-3 mx-6"></i> <span class="ml-4"><h3 class="font-black text-5xl">08</h3><p>Second</p></span>
+                        </span> <i class="fa-solid fa-ellipsis-vertical mt-3 lg:mx-6"></i> <span class="ml-4"><h3 class="font-black lg:text-5xl">08</h3><p>Second</p></span>
                 </div>
                 <div class=" ">
                     <h1 class="text-5xl font-bold">Deal of the day</h1>
@@ -158,18 +158,18 @@
 
         <!-- shop all cart section -->
 
-        <div class="mt-5 lg:mt-48">
-            <div class="lg:flex gap-6 ">
+        <div class="mt-5 lg:mt-32 ">
+            <div class="lg:flex gap-6 justify-center">
                 <!-- 1st modal cart -->
                 <div class="card border border-lg border-[#12121217]">
                     <figure class="px-24 pt-10">
-                        <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                        <img src="/images/fruit6.png" alt="" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
                         <div class="divider"></div>
-                        <p>Apples</p>
-                        <div class="rating">
+                        <p class="mt-5 mb-0">Apples</p>
+                        <div class="rating ">
                             <input type="radio" name="rating-6" class="mask mask-star-2  bg-orange-600" />
                             <input type="radio" name="rating-6" class="mask mask-star-2  bg-orange-600 " checked/>
                             <input type="radio" name="rating-6" class="mask mask-star-2  bg-orange-600" />
@@ -218,7 +218,7 @@
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
                         <div class="divider"></div>
-                        <p>Apples</p>
+                        <p class="mt-5">Orange</p>
                         <div class="rating">
                             <input type="radio" name="rating-4" class="mask mask-star-2  bg-orange-600" />
                             <input type="radio" name="rating-4" class="mask mask-star-2  bg-orange-600 " checked/>
@@ -268,7 +268,7 @@
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
                         <div class="divider"></div>
-                        <p>Apples</p>
+                        <p class="mt-5">Red Dragon</p>
                         <div class="rating">
                             <input type="radio" name="rating-8" class="mask mask-star-2  bg-orange-600" />
                             <input type="radio" name="rating-8" class="mask mask-star-2  bg-orange-600" checked/>
@@ -319,7 +319,7 @@
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
                         <div class="divider"></div>
-                        <p>Apples</p>
+                        <p class="mt-5">Banana</p>
                         <div class="rating">
                             <input type="radio" name="rating-9" class="mask mask-star-2  bg-orange-600" />
                             <input type="radio" name="rating-9" class="mask mask-star-2  bg-orange-600 " checked/>
@@ -364,6 +364,88 @@
             </div>
             <div class="text-center my-6 lg:mt-11">
                 <button class="btn btn-error text-[#fff] ">Shop All</button>
+            </div>
+        </div>
+        <!-- meet the team section -->
+
+        <div class="hero overflow-hidden" style="background-image: url(./images/team.png);">
+            <div class="hero-overlay bg-opacity-70"></div>
+            <div class="hero-content text-center text-neutral-content py-20">
+                <div class="">
+                    <h1 class="mb-5 text-5xl font-bold text-[#fff]">Meet the team section</h1>
+                    <p class="mb-5 text-[#fff]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+
+
+                    <div class="lg:flex mt-2 lg:mt-8 items-center justify-center">
+
+                        <div class="card items-center ">
+                            <div class="avatar">
+                                <div class="w-24 rounded-full ">
+                                    <img src="./images/member1.png" />
+                                </div>
+                            </div>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Awlad Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div class="card-actions">
+                                    <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card items-center">
+                            <div class="avatar">
+                                <div class="w-24 rounded-full ">
+                                    <img src="./images/member2.png" />
+                                </div>
+                            </div>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Safia Chowdhury</h2>
+                                <p>Fruits Expert</p>
+                                <div class="card-actions">
+                                    <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card items-center">
+                            <div class="avatar">
+                                <div class="w-24 rounded-full ">
+                                    <img src="./images/member3.png" />
+                                </div>
+                            </div>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Rokib Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div class="card-actions">
+                                    <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card items-center">
+                            <div class="avatar">
+                                <div class="w-24 rounded-full ">
+                                    <img src="./images/member4.png" />
+                                </div>
+                            </div>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Chaity</h2>
+                                <p>Fruits Expert</p>
+                                <div class="card-actions">
+                                    <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- why choose us section -->
+
+        <div class="mt-24">
+            <div class="text-center items-center">
+                <h3 class="text-5xl font-bold">Why Choose Us</h3>
+                <p class="lg:mt-5 mt-2 text-gray-600">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
         </div>
 
